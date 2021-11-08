@@ -427,6 +427,9 @@ You can also **Import** a CSV file with the list of app names and their bundle I
   - iPadOS 13.0 and newer
 
 - **Block VPN creation**: **Yes** prevents users from creating VPN configuration settings. When set to **Not configured** (default), Intune doesn't change or update this setting. By default, the OS might let users create VPNs on devices.
+
+Note: "3rd party VPN applications might be able to add the VPN profiles even when "Allow adding VPN Configuration (Supervised Only) /allowVPNCreation" is configured on the device. This is an iOS behavior"
+
 - **Block modification of eSIM settings**: **Yes** prevents removing or adding a cellular plan to the eSIM on devices. When set to **Not configured** (default), Intune doesn't change or update this setting. By default, the OS might allow users to change these settings.
 
   This feature applies to:  
